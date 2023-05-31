@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* Tags báscicas*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(28, 29, 31);
+}
+a.i{
+    margin-inline-end: 40px;
+}
+id{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Menu */
+header#cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header#cabecalho a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 17px;
+    font-size: 15pt;
+}
+header#cabecalho a:hover{
+    color: rgb(0, 195, 255);
+    transition: 1s;
+}
+div#text{
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+div#text h1{
+    color: rgb(0, 195, 255);
+    font-family: monospace;
+    font-size: 40pt;
+    border-right: 4px solid rgb(255, 255, 255);
+    margin: 10px;
+    width: 13ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(13), 
+    blinking 0.5s infinite step-end
+    alternate; 
+    text-align: right;
+    position: relative;
+}
+ @keyframes typing {
+    from {
+        width: 0;
+    }
+ }
+ @keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+div#text h2{
+    color: white;
+    position: relative;
+    top: 19px;
+}
+div#text h3{
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: -10px;
+}
+div#text button{
+    position: relative;
+    left: 10px;
+    color: rgb(0, 195, 255);
+    border: 1px solid rgb(0, 195, 255);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent; 
+}
+div#text button:hover{
+    background-color: rgb(0, 195, 255);
+    color: #000;
+    transition: 0.4s;
+}
+
+
+
+   
+
+
+
+
+ 
